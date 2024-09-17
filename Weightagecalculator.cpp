@@ -17,14 +17,14 @@ int main()
     int numSubjects;
     string subjectName;
 A:
-    cout << "********************************\n";
+    cout << "***************************************\n";
     cout << "Enter subject to find weightage.\n";
     cout << "Enter '1' for Theory GPA Calculation:\n";
     cout << "Enter '2' for Lab GPA Calculation :\n";
     cout << "Enter '3' for Semester GPA calculation:\n";
     cout << "Enter '4' for CGPA calculation:\n";
     cout << "Enter '5' for EXIT:\n";
-    cout << "********************************\n";
+    cout << "***************************************\n";
     cin >> Choice;
     switch (Choice)
     {
